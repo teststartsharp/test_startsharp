@@ -4,27 +4,10 @@
   <system-out><![CDATA[
 2 Scenarios (?[32m2 passed?[0m)
 22 Steps (?[32m22 passed?[0m)
-0m33.018s
+0m36.253s
 
 ]]></system-out>
-  <system-err><![CDATA[[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
-
--------------------------------------------------------------------------------------
-     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
-    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
-   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
-    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
-.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
-|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
-                                                                                     
- News and tutorials at http://www.serenity-bdd.info                                  
- Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
- Join the Serenity Community on Rocket Chat at https://serenity-bdd.rocket.chat      
- Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
- Learn Serenity BDD online at http://serenity-dojo.com                               
--------------------------------------------------------------------------------------
-
-[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Creacion de un nuevo cliente
+  <system-err><![CDATA[[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Creacion de un nuevo cliente
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Creacion de un nuevo cliente
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
@@ -46,9 +29,5 @@ TEST STARTED: Creacion fallida de un nuevo cliente sin ingresar datos
 
 TEST STARTED: Creacion correcta de un nuevo cliente solo con campos obligatorios
 -------------------------------------------------------------------(creacion-de-un-nuevo-cliente;creacion-correcta-de-un-nuevo-cliente-solo-con-campos-obligatorios)
-log4j:WARN No appenders could be found for logger (freemarker.cache).
-log4j:WARN Please initialize the log4j system properly.
-log4j:WARN No appenders could be found for logger (freemarker.cache).
-log4j:WARN Please initialize the log4j system properly.
 ]]></system-err>
 </testsuite>

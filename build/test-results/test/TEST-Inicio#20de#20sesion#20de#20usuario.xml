@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Inicio de sesion de usuario" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-13T21:00:18" hostname="SQABOG-TGP3997" time="14.555">
+<testsuite name="Inicio de sesion de usuario" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-13T22:03:29" hostname="SQABOG-TGP3997" time="15.973">
   <properties/>
-  <testcase name="Iniciar sesion satisfactoriamente" classname="Inicio de sesion de usuario" time="14.555"/>
+  <testcase name="Iniciar sesion satisfactoriamente" classname="Inicio de sesion de usuario" time="15.973"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Feb 13, 2023 4:00:18 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+  <system-err><![CDATA[Feb 13, 2023 5:03:30 PM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized --disable..., goog:chromeOptions: {args: [--start-maximized, --disable-popup-blocking], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: }
-Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 11797
+Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 38221
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1676322020.679][WARNING]: This version of ChromeDriver has not been tested with Chrome version 110.
-Feb 13, 2023 4:00:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1676325813.430][WARNING]: This version of ChromeDriver has not been tested with Chrome version 110.
+Feb 13, 2023 5:03:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  

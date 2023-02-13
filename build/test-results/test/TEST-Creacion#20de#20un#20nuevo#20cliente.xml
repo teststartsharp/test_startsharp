@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Creacion de un nuevo cliente" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-02-13T20:59:42" hostname="SQABOG-TGP3997" time="32.908">
+<testsuite name="Creacion de un nuevo cliente" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-02-13T22:03:49" hostname="SQABOG-TGP3997" time="36.167">
   <properties/>
-  <testcase name="Creacion fallida de un nuevo cliente sin ingresar datos" classname="Creacion de un nuevo cliente" time="16.404"/>
-  <testcase name="Creacion correcta de un nuevo cliente solo con campos obligatorios" classname="Creacion de un nuevo cliente" time="16.347"/>
+  <testcase name="Creacion fallida de un nuevo cliente sin ingresar datos" classname="Creacion de un nuevo cliente" time="15.45"/>
+  <testcase name="Creacion correcta de un nuevo cliente solo con campos obligatorios" classname="Creacion de un nuevo cliente" time="20.643"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Feb 13, 2023 3:59:43 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+  <system-err><![CDATA[Feb 13, 2023 5:03:49 PM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized --disable..., goog:chromeOptions: {args: [--start-maximized, --disable-popup-blocking], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: }
-Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 10853
+Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 23204
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1676321985.304][WARNING]: This version of ChromeDriver has not been tested with Chrome version 110.
-Feb 13, 2023 3:59:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1676325831.082][WARNING]: This version of ChromeDriver has not been tested with Chrome version 110.
+Feb 13, 2023 5:03:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
@@ -25,16 +25,16 @@ INFO: Detected dialect: W3C
 
 TEST PASSED: Creacion fallida de un nuevo cliente sin ingresar datos
 ----------------------------------------------------------------------------
-Feb 13, 2023 3:59:59 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+Feb 13, 2023 5:04:04 PM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized --disable..., goog:chromeOptions: {args: [--start-maximized, --disable-popup-blocking], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: }
-Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 39234
+Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 32100
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1676322001.431][WARNING]: This version of ChromeDriver has not been tested with Chrome version 110.
-Feb 13, 2023 4:00:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1676325847.142][WARNING]: This version of ChromeDriver has not been tested with Chrome version 110.
+Feb 13, 2023 5:04:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  

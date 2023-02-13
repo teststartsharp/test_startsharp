@@ -17,9 +17,9 @@ import static is.serenity.demo.utils.ClassType.RUNNER_CLASS;
         glue = "is.serenity.demo.stepdefinitions",
         tags = "@Case1",
         snippets = SnippetType.CAMELCASE)
-public class LoginUserRunner {
+public class ALoginUserRunner {
 
-      public LoginUserRunner() {
+      public ALoginUserRunner() {
             throw new IllegalStateException(RUNNER_CLASS);
         }
 
